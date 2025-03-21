@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.max-w-540 {
+    max-width: 540px;
+    padding: 20px;
+}
+
+
+.heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #808080;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.box {
+    border-radius: 20px;
+}
+
+input {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 13px 34px;
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+
+
+
+}
+
+.btn:hover {
+    color: #1444EF;
+    background: #FFFFFF;
+    border: 1px solid#1444EF;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.task {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.max-auto {
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 7px 8px;
+}
+
+.input-box {
+    border: none;
+    padding: 7px 8px;
+    outline: none;
+    flex: 1;
+}
+
+button {
+    padding: 5px;
+    background-color: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.gap-15{
+    gap: 15px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+
+}
+.align-items-center{
+    align-items: center;
+} .d-flex{
+    display: flex;
+}
