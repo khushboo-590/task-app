@@ -104,7 +104,7 @@ input {
 .input-container {
     display: flex;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #0000001A;
     border-radius: 5px;
     overflow: hidden;
     padding: 7px 8px;
@@ -125,9 +125,11 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
-.gap-15{
+
+.gap-15 {
     gap: 15px;
 }
+
 ul {
     list-style: none;
     padding: 0;
@@ -153,8 +155,11 @@ li {
     color: gray;
 
 }
-.align-items-center{
+
+.align-items-center {
     align-items: center;
-} .d-flex{
+}
+
+.d-flex {
     display: flex;
 }
