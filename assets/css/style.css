@@ -53,7 +53,7 @@ input {
 }
 
 .btn {
-    padding: 13px 34px;
+    padding: 10px 22px;
     background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
     border-radius: 4px;
     color: #FFFFFF;
@@ -63,9 +63,6 @@ input {
     font-size: 16px;
     line-height: 19px;
     border: none;
-
-
-
 }
 
 .btn:hover {
@@ -106,7 +103,7 @@ input {
     align-items: center;
     border: 1px solid #0000001A;
     border-radius: 5px;
-    overflow: hidden;
+    gap: 3px;
     padding: 7px 8px;
 }
 
@@ -118,7 +115,7 @@ input {
 }
 
 button {
-    padding: 5px;
+    padding: 10px;
     background-color: none;
     color: white;
     border: none;
@@ -163,3 +160,22 @@ li {
 .d-flex {
     display: flex;
 }
+
+.complete.active {
+    background-color: green;
+    color: white;
+}
+
+.delete.active {
+    background-color: red;
+    color: white;
+}
+
+.complete:hover {
+    background-color: lightgreen;
+}
+
+.delete:hover {
+    background-color: lightcoral;
+}
+
